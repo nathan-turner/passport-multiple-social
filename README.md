@@ -1,30 +1,17 @@
-<<<<<<< HEAD
-This example demonstrates how to use [Express](http://expressjs.com/) 4.x and
-[Passport](http://passportjs.org/) to authenticate users using Facebook.  Use
+
+This example demonstrates how to use Passport and Express to authenticate users using Facebook, Linkedin, Google, Twitter, and local.  Use
 this example as a starting point for your own web applications.
 
 ## Instructions
 
 To install this example on your computer, clone the repository and install
-dependencies.
+dependencies via npm.
 
-```bash
-$ git clone git@github.com:passport/express-4.x-facebook-example.git
-$ cd express-4.x-facebook-example
-$ npm install
-```
-
-The example uses environment variables to configure the consumer key and
-consumer secret needed to access Facebook's API.  Start the server with those
-variables set to the appropriate credentials.
-
-```bash
-$ CLIENT_ID=__FACEBOOK_CLIENT_ID__ CLIENT_SECRET=__FACEBOOK_CLIENT_SECRET__ node server.js
-```
+You will need to obtain your own access keys for the various social API's and add these as environment variables (.env file for development)
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
 to see the example in action.
 =======
 # passport-multiple-social
 Includes Facebook, Twitter, LinkedIn, Google, and local login examples for passport
->>>>>>> af80ae041c0b3bed863d0d6f44a13ecc36b8e512
+
