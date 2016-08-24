@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This example demonstrates how to use [Express](http://expressjs.com/) 4.x and
 [Passport](http://passportjs.org/) to authenticate users using Facebook.  Use
 this example as a starting point for your own web applications.
@@ -23,3 +24,7 @@ $ CLIENT_ID=__FACEBOOK_CLIENT_ID__ CLIENT_SECRET=__FACEBOOK_CLIENT_SECRET__ node
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
 to see the example in action.
+=======
+# passport-multiple-social
+Includes Facebook, Twitter, LinkedIn, Google, and local login examples for passport
+>>>>>>> af80ae041c0b3bed863d0d6f44a13ecc36b8e512
