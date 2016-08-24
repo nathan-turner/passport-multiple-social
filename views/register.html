@@ -1,0 +1,27 @@
+<h1>Register</h1>
+<form action="/register" method="post">
+	<$ message|safe $>
+	<div>	
+	<label>First Name*:</label>
+	<input type="text" name="fname" value="<$ post.fname $>" /><br/>
+	</div>
+	<div>	
+	<label>Last Name*:</label>
+	<input type="text" name="lname" value="<$ post.lname $>" /><br/>
+	</div>
+	<div>	
+	<label>Email*:</label>
+	<input type="email" name="email" value="<$ post.email $>" /><br/>
+	</div>
+	<div>
+	<label>Password*:</label>
+	<input type="password" name="password" value="<$ post.password $>" />
+	</div>
+	<div>
+	<label>Repeat Password*:</label>
+	<input type="password" name="password2" value="<$ post.password2 $>" />
+	</div>
+	<div>
+	<input type="submit" value="Submit"  />
+	</div>
+</form>

@@ -1,0 +1,19 @@
+<a href="/login/facebook">Log In with Facebook</a><br/>
+<a href="/login/twitter">Log In with Twitter</a><br/>
+<a href="/login/google">Log In with Google</a><br/>
+<a href="/login/linkedin">Log In with LinkedIn</a>
+
+<form action="/login" method="post">
+	<div>
+	<$ message|safe $>
+	<label>Username:</label>
+	<input type="text" name="email"/><br/>
+	</div>
+	<div>
+	<label>Password:</label>
+	<input type="password" name="password"/>
+	</div>
+	<div>
+	<input type="submit" value="Submit"/>
+	</div>
+</form>
